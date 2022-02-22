@@ -15,17 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
 
-Route::get('/Employers', 'App\Http\Controllers\PagesController@jobSeekers');
+Route::get('/job-seekers', 'App\Http\Controllers\PagesController@jobSeekers');
 
-Route::get('/Resources', 'App\Http\Controllers\PagesController@resources');
+Route::get('/employers', 'App\Http\Controllers\PagesController@employers');
 
-Route::get('/About', 'App\Http\Controllers\PagesController@about');
+Route::get('/resources', 'App\Http\Controllers\PagesController@resources');
 
-Route::get('/News', 'App\Http\Controllers\PagesController@news');
+Route::get('/about', 'App\Http\Controllers\PagesController@about');
 
-Route::get('/Contact', 'App\Http\Controllers\PagesController@contact');
+Route::get('/news', 'App\Http\Controllers\PagesController@news');
 
-Route::get('/Nurses', 'App\Http\Controllers\PagesController@nurses');
+Route::get('/contact', 'App\Http\Controllers\PagesController@contact');
+
+Route::get('/nurses', 'App\Http\Controllers\PagesController@nurses');
 
 Route::get('/support-workers', 'App\Http\Controllers\PagesController@supportWorkers');
 

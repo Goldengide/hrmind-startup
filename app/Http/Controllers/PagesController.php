@@ -66,4 +66,8 @@ class PagesController extends Controller
         return view('pages.temporary-staff');
     }
 
+    public function employers() {
+        return view('pages.employers');
+    }
+
 }
