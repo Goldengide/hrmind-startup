@@ -7,10 +7,7 @@
     <div class="icon-layer-four" style="background-image:url(images/icons/icon-3.png)"></div>
     <div class="auto-container">
         <div class="row clearfix">
-            <!-- Title Column -->
-            <div class="title-column col-lg-6 cl-md-12 col-sm-12">
 
-            </div><!-- Image Column -->
             <div class="image-column col-lg-6 cl-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="color-layer"></div>
@@ -20,7 +17,7 @@
                     <div class="icon-layer-seven" style="background-image:url(images/icons/pattern-10.png)"></div>
                     <div class="icon-layer-eight" style="background-image:url(images/icons/pattern-19.png)"></div>
                     <div class="image">
-                        <img src="images/resource/page-title.png" alt="">
+                        <img src="images/resource/page-title-2.png" alt="">
                     </div>
                 </div>
             </div>
