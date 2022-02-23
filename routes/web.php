@@ -39,4 +39,6 @@ Route::get('/timesheets', 'App\Http\Controllers\PagesController@timesheets');
 
 Route::get('/recruitment-services', 'App\Http\Controllers\PagesController@recruitmentServices');
 
+Route::get('/policies', 'App\Http\Controllers\PagesController@policies');
+
 Route::get('/temporary-staff', 'App\Http\Controllers\PagesController@temporaryStaff');

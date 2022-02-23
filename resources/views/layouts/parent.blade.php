@@ -335,7 +335,7 @@
                                                     <a href="{{url('/timesheets')}}">Timesheets</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Policies</a>
+                                                    <a href="{{url('/policies')}}">Policies</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{url('/news')}}">News</a>

@@ -1,6 +1,6 @@
+
 @extends("layouts.parent")
 @section("content")
-
 <section class="page-title-section">
     <div class="icon-layer-one" style="background-image:url(images/background/pattern-15.png)"></div>
     <div class="icon-layer-two" style="background-image:url(images/background/pattern-16.png)"></div>
@@ -8,8 +8,7 @@
     <div class="icon-layer-four" style="background-image:url(images/icons/icon-3.png)"></div>
     <div class="auto-container">
         <div class="row clearfix">
-            <!-- Title Column -->
-            <!-- Image Column -->
+
             <div class="image-column col-lg-6 cl-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="color-layer"></div>
@@ -19,7 +18,7 @@
                     <div class="icon-layer-seven" style="background-image:url(images/icons/pattern-10.png)"></div>
                     <div class="icon-layer-eight" style="background-image:url(images/icons/pattern-19.png)"></div>
                     <div class="image">
-                        <img src="images/resource/page-title-2.png" alt="">
+                        <img src="images/resource/page-title.png" alt="">
                     </div>
                 </div>
             </div>
@@ -105,5 +104,4 @@
     </div>
 </section><!-- End Map Contact Section --><!-- Main Footer / Style Two -->
 </section><!-- End Clients Section Two -->
-
 @endsection

@@ -62,6 +62,11 @@ class PagesController extends Controller
     }
 
 
+    public function policies() {
+        return view('pages.policies');
+    }
+
+
     public function temporaryStaff() {
         return view('pages.temporary-staff');
     }
