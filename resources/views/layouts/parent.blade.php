@@ -366,6 +366,7 @@
         <div class="scroll-to-tops scroll-to-target" data-target="html">
             <span class="fa fa-angle-up"></span>
         </div>
+
         <script src="{{ URL::asset("js/jquery.js") }}"></script>
         <script src="{{ URL::asset("js/popper.min.js") }}"></script>
         <script src="{{ URL::asset("js/bootstrap.min.js") }}"></script>
@@ -380,5 +381,18 @@
         <script src="{{ URL::asset("js/isotope.js") }}"></script>
         <script src="{{ URL::asset("js/jquery-ui.js") }}"></script>
         <script src="{{ URL::asset("js/script.js") }}"></script>
+        <script>
+            $(function(){
+                var current = location.pathname;
+                $('.navigation li a').each(function(){
+                    var $this = $(this);
+                    // if the current path is like this link, make it active
+                    console.log($this.attr('href'), "CURRENT", current, "result", $this.attr('href').indexOf(current))
+                    if($this.attr('href').indexOf(current) !== -1){
+                        $this.addClass('active');
+                    }
+                })
+            })
+        </script>
     </body>
 </html>

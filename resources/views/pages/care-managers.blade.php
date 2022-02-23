@@ -67,7 +67,7 @@
                             We will be glad to hear from you!
                         </div><!-- Contact Form -->
                         <div class="contact-form">
-                            <form method="post" action="#." id="contact-form" name="contact-form">
+                            <form method="post" action="#." name="contact-form">
                                 <div class="form-group">
                                     <input type="text" name="username" placeholder="Full Name" required="">
                                 </div>
